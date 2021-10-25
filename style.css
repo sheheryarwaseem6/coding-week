@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.cdayt,
+.cdate {
+  border: 1px solid #ddd;
+  margin: 50px;
+  padding: 10px;
+}
+
+#current-day {
+  font-weight: 400;
+  font-style: italic;
+  text-align: center;
+}
+
+#current-time,
+#current-date {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.tri-grid {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  align-content: center;
+}
+
+#calc {
+  width: 35%;
+  
+  margin-left: 10px;
+}
+
+.hdtri {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.triangle {
+  margin: 20px;
+}
+
+#display {
+  border: 1px ;
+  padding: 5px 25px;
+  font-size: 1.5rem;
+  color: red;
+  font-weight: 600;
+  margin-left: 10px;
+  background-color: #fff;
+}
+
+input {
+  padding: 5px;
+  text-align: end;
+}
+
+label {
+  margin: 0 10px;
+}
+
+#area {
+  margin-left: 10px;
+}
+
+.triangle {
+  
+  padding: 25px;
+}
+
+.tab {
+  text-align: center;
+}
+
+.str-con,
+.list-wrapper {
+  text-align: center;
+  margin: 50px;
+}
+
+.mhdr {
+  padding: 50px;
+}
+
+.lpyr-con,
+.tsk6con,
+.tsk7con,
+.tsk8con,
+.tsk9con,
+.tsk10con,
+.tsk11con,
+.tsk12con,
+.tsk13con,
+.tsk14con,
+.tsk18con {
+  text-align: center;
+  padding: 20px;
+  /* margin: 20px; */
+}
+
+.input-con {
+  margin: 50px;
+}
+
+#lp-btn,
+#sun-btn,
+#num-btn,
+#btn-1,
+#btn-2,
+#c2f,
+#f2c,
+#add-btn,
+#th-btn,
+#ln-btn {
+  padding: 5px 15px;
+  
+
+  margin-left: 10px;
+}
+
+#lprndr,
+#sunrndr,
+#dayrndr,
+#f2cres,
+#c2fres,
+#lnres {
+
+  margin: 50px;
+  padding: 5px;
+  font-weight: 600;
+  font-size: 2.5rem;
+  
+}
+
+input::placeholder {
+  text-align: left;
+}
+
+#btn-1,
+#btn-2 {
+  margin: 0 25px;
+  margin-left: 70px;
+}
+
+.mdrncon {
+  margin: 50px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#multirndr,
+#divirndr {
+  margin-left: 70px;
+  padding: 5px 10px;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: red;
+}
+
+#multirndr {
+  margin-left: 100px;
+}
+
+.temp-con {
+  margin: 50px;
+  display: inline-grid;
+  grid-gap: 10px;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.t-con {
+  margin: 25px;
+}
+
+.addbtn-con {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.addcon,
+.th-con {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#addres,
+#thres {
+  margin: 15px;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  color: red;
+}
+
+.space {
+  margin: 0 25px;
+}
+
+.ln-con {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 50px;
+}
+
+#ln1,
+#ln2,
+#ln3 {
+  margin: 20px 0;
+}

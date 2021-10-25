@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Coding Week</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="app">
+        <h1 class="mhdr">Coding Assignment Saylani</h1>
+        <div class="wrapper">
+          <div class="tab active" id="tab1">
+            <h2>Question no.1</h2>
+            <h2>Print Current Day and Time</h2>
+            <div class="cdayt">
+              <h2 id="current-day"></h2>
+              <h2 id="current-time"></h2>
+            </div>
+          </div>
+          <div class="tab" id="tab2">
+            <h2>Question No. 2</h2>
+            <h2>Print Current Date</h2>
+            <div class="cdate">
+              <h2 id="current-date"></h2>
+            </div>
+          </div>
+          <div class="tab" id="tab3">
+            <div class="triangle">
+              <h2>Question No.3</h2>
+              <h2 class="hdtri">Program to Area of a triangle</h2>
+              <div class="tri-grid">
+                <div class="fld">
+                  <label for="side1"> Enter Length of one side : </label>
+                  <input
+                    type="number"
+                    id="side1"
+                    placeholder="Enter value of side 1"
+                    value="5"
+                  />
+                </div>
+                <div class="fld">
+                  <label for="side2"> Enter Length of second side : </label>
+                  <input
+                    type="number"
+                    id="side2"
+                    placeholder="Enter value of side 2"
+                    value="6"
+                  />
+                </div>
+                <div class="fld">
+                  <label for="side3"> Enter Length of third side : </label>
+                  <input
+                    type="number"
+                    id="side3"
+                    placeholder="Enter value of side 2"
+                    value="7"
+                  />
+                </div>
+                <p id="area">The Area of Triangle is : <span id="display"></span></p>
+                <button id="calc">Calculate</button>
+              </div>
+            </div>
+          </div>
+          <div class="str-con">
+            <h2>Question No. 4</h2>
+            <h2>Rotate Screen</h2>
+            <div class="list-wrapper">
+              <p class="extList"></p>
+            </div>
+          </div>
+          <div class="lpyr-con">
+            <h2>Question No. 5</h2>
+            <h2>Check Leap Year</h2>
+            <div class="input-con">
+              <label for="inputyr">Enter year</label>
+              <input type="number" value="" id="yrinput" />
+              <button id="lp-btn">Check</button>
+              <p id="lprndr"></p>
+            </div>
+          </div>
+          <div class="tsk6con">
+            <h2>Question No. 6</h2>
+            <h2>Sunday Lookup</h2>
+            <div class="input-con">
+              <label for="yrinpt">Enter year</label>
+              <input type="number" value="" id="inptyr" />
+              <button id="sun-btn">Check</button>
+              <p id="sunrndr"></p>
+            </div>
+          </div>
+          <div class="tsk7con">
+            <h2>Question No. 7</h2>
+            <h2>Guess Number</h2>
+            <div class="input-con">
+              <button id="num-btn">Check</button>
+              <p id="numrndr"></p>
+            </div>
+          </div>
+          <div class="tsk8con">
+            <h2>Question No. 8 </h2>
+            <h2>Days left in Next Independence Day</h2>
+            <p id="dayrndr"></p>
+          </div>
+          <div class="tsk9con">
+            <h2>Question No. 9</h2>
+            <h2>Multiplication & Division</h2>
+            <div class="input-con">
+              <label for="num1">Number 1</label>
+              <input type="number" id="num1" placeholder="Enter any number" />
+              <label for="num1">Number 2</label>
+              <input type="number" id="num2" placeholder="Enter any number" />
+            </div>
+            <div class="btn-con">
+              <button id="btn-1">Multiply</button>
+              <button id="btn-2">Divide</button>
+            </div>
+            <div class="mdrncon">
+              <p id="multirndr"></p>
+              <p id="divirndr"></p>
+            </div>
+          </div>
+          <div class="tsk10con">
+            <h2>Question No. 10</h2>
+            <h2>Convert Temperature</h2>
+            <h3>C to F/F to C</h3>
+            <div class="temp-con">
+              <div class="t-con">
+                <label for="tempc">Temperature (C)</label>
+                <input
+                  type="number"
+                  id="tempc"
+                  placeholder="Enter any number"
+                />
+                <button id="c2f">C to F</button>
+                <div class="resrndr">
+                  <p id="c2fres"></p>
+                </div>
+              </div>
+              <div class="t-con">
+                <label for="tempf">Temperature (F)</label>
+                <input
+                  type="number"
+                  id="tempf"
+                  placeholder="Enter any number"
+                />
+                <button id="f2c">F to C</button>
+                <div class="resrndr">
+                  <p id="f2cres"></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tsk11con">
+            <h2>Question No. 11</h2>
+            <h2>Addition or Triple Sum</h2>
+            <div class="input-con addcon">
+              <label for="num1">Number 1</label>
+              <input type="number" id="n1" placeholder="Enter any number" />
+              <label for="num1">Number 2</label>
+              <input type="number" id="n2" placeholder="Enter any number" />
+              <div class="addbtn-con">
+                <button id="add-btn">Add</button>
+              </div>
+              <p class="space">=</p>
+              <div class="addrndr">
+                <p id="addres"></p>
+              </div>
+            </div>
+          </div>
+          <div class="tsk12con">
+            <h2>Question No. 12</h2>
+            <div class="input-con th-con">
+              <label for="thnum">Enter Number </label>
+              <input type="number" id="thnum" placeholder="Enter any number" />
+              <div class="th-btncon">
+                <button id="th-btn">Check</button>
+              </div>
+            </div>
+            <div class="th-rescon">
+              <p id="thres"></p>
+            </div>
+          </div>
+          <div class="tsk13con">
+            <h2>Question No. 13</h2>
+            <h2>Largest of three numbers</h2>
+            <div class="input-con ln-con">
+              <label for="ln1">Number 1</label>
+              <input type="number" id="ln1" />
+              <label for="ln2">Number 2</label>
+              <input type="number" id="ln2" />
+              <label for="ln3">Number 3</label>
+              <input type="number" id="ln3" />
+            </div>
+
+            <div class="tsk15con">
+              <h2>Question No. 15</h2>
+              <<h2>Enter days to convert in hours and minutes</h2>
+              <input type="number" id="task15" placeholder="Enter days to convert in hours and minutes" />
+              <button onclick="task15()">Task 15 submit</button>
+              <span>
+                  <h3>Hours : </h3>
+                  <h3 id="hour"> </h3>
+              </span>
+              <span>
+                  <h3>Minutes : </h3>
+                  <h3 id="min"></h3>
+              </span>
+              <br>
+              </div>
+
+              <div class="tsk18con">
+                <h2>Question No. 18</h2>
+                <input type="number" id="task18" placeholder="Enter number to find kth highest for task 18" />
+    <button onclick="task18()">Task 18 submit</button>
+
+    <br>
+                </div>
+
+            <div class="ln-btncon">
+              <button id="ln-btn">Check</button>
+            </div>
+            <div class="lnres-con">
+              <p id="lnres"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
